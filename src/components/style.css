@@ -1,0 +1,60 @@
+.card {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .image-wrapper {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #926ff6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grap-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .card-title,
+  .grap-title {
+    color: #4f4f4f;
+    font-size: 16.583px;
+    font-weight: 500;
+    line-height: 71.5%;
+    letter-spacing: 0.497px;
+  }
+
+
+  
+  .card-text,
+  .grap-text {
+    color:#4f4f4f;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 120.5%;
+    letter-spacing: 0.36px;
+  }
+
+  .grap-text {
+    margin-top: 25px;
+  }
+  .grap-title {
+    padding-top: 20px;
+  }
+
+  .card-icon,
+  .grap_img {
+    width: 350px;
+    height: 320px;
+  }
+
+ 
